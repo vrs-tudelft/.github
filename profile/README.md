@@ -15,9 +15,10 @@ This is a team project for the MSc course *Applied Space Geodesy* at TU Delft
 | Place | What it is | Who can see it |
 |---|---|---|
 | [Website](https://vrs-tudelft.github.io) | The project in plain words, figures, animations | Everyone |
-| [virtual-radiosonde](https://github.com/vrs-tudelft/virtual-radiosonde) | The team workspace: notes, code, meeting minutes, one folder per paper section | Team members |
-| [vrs-paper](https://github.com/vrs-tudelft/vrs-paper) | A copy of the Overleaf manuscript that updates itself. The paper is written in Overleaf, not here | Team members |
+| [virtual-radiosonde](https://github.com/vrs-tudelft/virtual-radiosonde) | The team workspace: research notes, code, one folder per paper section | Team members |
+| [vrs-paper](https://github.com/vrs-tudelft/vrs-paper) | A git copy of the Overleaf manuscript, synced by hand. The paper is written in Overleaf, not here | Team members |
 | [vrs-data](https://github.com/vrs-tudelft/vrs-data) | The datasets, with a script that downloads them for you | Team members |
+| [vrs-tudelft.github.io](https://github.com/vrs-tudelft/vrs-tudelft.github.io) | The files behind the website | Everyone |
 
 ## Joining
 
