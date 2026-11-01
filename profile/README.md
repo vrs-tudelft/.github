@@ -13,16 +13,16 @@ the estimate.
 
 Simulations test recovery against known air under matched model assumptions. The real
 Rotterdam comparison uses a ground-station proxy; urban vertical accuracy remains
-unverified. Findings also links building names and BAG IDs to radar height coverage.
+unverified. Findings also links building names and BAG IDs to [radar height coverage](https://vrs-tudelft.github.io/results.html#coverage).
 
 ## Repositories
 
 | Repository | Role |
 | --- | --- |
-| [Website source](https://github.com/vrs-tudelft/vrs-tudelft.github.io) | Public · site code and checks |
-| [Analysis](https://github.com/vrs-tudelft/virtual-radiosonde) | Private · analysis, simulations and notebooks |
-| [Data](https://github.com/vrs-tudelft/vrs-data) | Private · course inputs and pinned report data |
-| [Manuscript](https://github.com/vrs-tudelft/vrs-paper) | Private · Overleaf source mirror; prose is edited in Overleaf |
+| [vrs-tudelft.github.io](https://github.com/vrs-tudelft/vrs-tudelft.github.io) | Public · site code and checks |
+| [virtual-radiosonde](https://github.com/vrs-tudelft/virtual-radiosonde) | Private · analysis, simulations and notebooks |
+| [vrs-data](https://github.com/vrs-tudelft/vrs-data) | Private · course inputs and pinned report data |
+| [vrs-paper](https://github.com/vrs-tudelft/vrs-paper) | Private · Overleaf source mirror; prose is edited in Overleaf |
 
 Team setup: [getting-started guide](https://github.com/vrs-tudelft/virtual-radiosonde/blob/main/GETTING_STARTED.md)
 (organisation membership required).
