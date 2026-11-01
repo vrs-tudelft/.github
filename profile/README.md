@@ -1,31 +1,30 @@
 # Virtual Radiosonde
 
-**Reading the lowest few hundred metres of the air above a city from satellite radar.**
+Can satellite radar use building heights to reveal changes in the air above Rotterdam?
 
-A radiosonde is the instrument on a weather balloon. The Netherlands launches one a day,
-from De Bilt, never over a city. We are testing whether radar satellites can do part of
-that job over Rotterdam, using points on building facades at different heights as the
-measuring stick.
+We investigate atmospheric refractivity using radar measurements at different heights
+on building facades, and test how building motion, noise and height coverage affect
+the estimate.
 
-This is a team project for the MSc course *Applied Space Geodesy* at TU Delft
-(September to October 2026), supervised by Prof. Ramon Hanssen.
+**[Explore the project](https://vrs-tudelft.github.io/)**:
+[Idea](https://vrs-tudelft.github.io/index.html#height) →
+[Experiment](https://vrs-tudelft.github.io/simulator.html#steps) →
+[Findings](https://vrs-tudelft.github.io/results.html#signal).
 
-## Where things are
+Simulations test recovery against known air under matched model assumptions. The real
+Rotterdam comparison uses a ground-station proxy; urban vertical accuracy remains
+unverified. Findings also links building names and BAG IDs to radar height coverage.
 
-| Place | What it is | Who can see it |
-|---|---|---|
-| [Website](https://vrs-tudelft.github.io) | The project in plain words, figures, animations | Everyone |
-| [virtual-radiosonde](https://github.com/vrs-tudelft/virtual-radiosonde) | Analysis code, notebooks, forward simulation and reproducible results | Team members |
-| [vrs-paper](https://github.com/vrs-tudelft/vrs-paper) | A git copy of the Overleaf manuscript, synced by hand. The paper is written in Overleaf, not here | Team members |
-| [vrs-data](https://github.com/vrs-tudelft/vrs-data) | The datasets, with a script that downloads them for you | Team members |
-| [vrs-tudelft.github.io](https://github.com/vrs-tudelft/vrs-tudelft.github.io) | The files behind the website | Everyone |
+## Repositories
 
-## Joining
+| Repository | Role |
+| --- | --- |
+| [Website source](https://github.com/vrs-tudelft/vrs-tudelft.github.io) | Public · site code and checks |
+| [Analysis](https://github.com/vrs-tudelft/virtual-radiosonde) | Private · analysis, simulations and notebooks |
+| [Data](https://github.com/vrs-tudelft/vrs-data) | Private · course inputs and pinned report data |
+| [Manuscript](https://github.com/vrs-tudelft/vrs-paper) | Private · Overleaf source mirror; prose is edited in Overleaf |
 
-You need a GitHub account. Send your GitHub user name to Quinten and you will get an
-invitation to the organisation. Then use the
-[getting-started guide](https://github.com/vrs-tudelft/virtual-radiosonde/blob/main/GETTING_STARTED.md)
-to choose your workflow, install its dependencies and find its checks.
+Team setup: [getting-started guide](https://github.com/vrs-tudelft/virtual-radiosonde/blob/main/GETTING_STARTED.md)
+(organisation membership required).
 
-You do not need to know git to take part. Every file can be read and edited in the
-browser, and the paper itself is written in Overleaf.
+TU Delft · MSc Applied Space Geodesy · 2026.
